@@ -1,4 +1,10 @@
 .venv/
+data/processed/
+data/imports/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
 venv/
 .env
 .env.*

@@ -10,7 +10,7 @@
 - 本地聊天网页，在线模型调用需显式允许。
 - 可选接入 Go 电商接口，以实时 SKU 价格、库存和状态筛选候选。
 
-电商集成对应 [xzxg-shop fork](https://github.com/oo0816/xzxg-shop/tree/feat/shopping-integration)，底座来自 [LYP-leo/xzxg-shop](https://github.com/LYP-leo/xzxg-shop)。此仓库维护 Python 导购、证据审核与评测；当前尚未完成账号绑定、购物车和订单闭环。
+电商集成对应 [xzxg-shop fork](https://github.com/oo0816/xzxg-shop)，底座来自 [LYP-leo/xzxg-shop](https://github.com/LYP-leo/xzxg-shop)。Go接入代码当前位于本地 `feat/shopping-integration` 开发分支，尚未推送。此仓库维护 Python 导购、证据审核与评测；当前尚未完成账号绑定、购物车和订单闭环。
 
 ## 环境与启动
 
