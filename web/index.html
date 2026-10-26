@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>有据选购 · 把选择交给依据</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="有据选购首页"><span class="brand-icon">据</span><span>有据选购<small>SHOP WITH EVIDENCE</small></span></a>
+    <button id="new-session" class="new-button" type="button"><span>＋</span> 开始新的选购</button>
+    <div class="side-caption">当前会话</div>
+    <form id="restore-form">
+      <label for="session-id">会话编号</label>
+      <input id="session-id" maxlength="64" autocomplete="off" spellcheck="false" required>
+      <button type="submit" class="restore-button">恢复会话 <span>↗</span></button>
+    </form>
+    <div class="side-note">刷新页面会保留当前会话。也可以保存编号，下次继续比较。</div>
+    <div class="side-footer"><span class="dot"></span> 本地选购助手<small>价格与规格以资料记录为准</small></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>选购工作台 <span class="slash">/</span> <strong>聊天</strong></span><span class="top-tag">有引用，有取舍</span></header>
+    <section class="workspace">
+      <div id="welcome" class="welcome">
+        <div class="eyebrow">少一点纠结，多一点依据</div>
+        <h1>这次，想选点什么？</h1>
+        <p>告诉我预算、用途和在意的地方。<br>我会比较具体规格，说明推荐依据，也告诉你哪些还不确定。</p>
+        <div class="examples">
+          <button type="button" data-example="预算1000元，想买双跑步鞋用于夏天通勤，希望轻便一些，品牌不限。"><span class="example-icon">↗</span><strong>通勤跑步鞋</strong><small>预算 1000 元 · 轻便 · 夏天通勤</small></button>
+          <button type="button" data-example="预算1000元，希望轻便，适合夏天通勤。"><span class="example-icon">＋</span><strong>还没想好买什么</strong><small>从预算和用途开始，一起补齐需求</small></button>
+        </div>
+      </div>
+      <div id="messages" class="messages" aria-live="polite" aria-label="对话记录"></div>
+    </section>
+    <section class="composer-wrap">
+      <div id="notice" class="notice" role="status" hidden></div>
+      <button id="retry" type="button" class="retry-button" hidden>重试未完成的步骤 ↻</button>
+      <form id="chat-form" class="composer">
+        <label for="query" class="sr-only">你的选购需求或追问</label>
+        <textarea id="query" placeholder="例如：预算1000元，想买双夏天通勤的跑步鞋……" maxlength="2000" rows="2" required></textarea>
+        <div class="composer-bottom"><label class="online-label"><input id="online" type="checkbox">允许在线模型调用 <span>可能产生费用</span></label><button id="send" type="submit">发送 <span>↑</span></button></div>
+      </form>
+      <div class="composer-hint"><span id="connection">正在恢复会话…</span><span>Enter 发送 · Shift + Enter 换行</span></div>
+    </section>
+  </main>
+</body>
+</html>

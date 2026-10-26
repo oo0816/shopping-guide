@@ -1,0 +1,8 @@
+{"id": "r001", "query": "21TVA1K5BO 出厂是16GB还是64GB内存？", "expected_chunk_ids": ["psref_21tva1k5bo::memory"], "expected_answer": "出厂16GB；64GB是最大支持容量。", "answerability": "supported"}
+{"id": "r002", "query": "21T9000SGR 的内存频率是多少？", "expected_chunk_ids": ["psref_21t9000sgr::memory"], "expected_answer": "DDR5-5200，出厂1条16GB。", "answerability": "supported"}
+{"id": "r003", "query": "21MR00G6QN 出厂内存有多大，装了几条？", "expected_chunk_ids": ["psref_21mr00g6qn::memory"], "expected_answer": "2条16GB，总计32GB。", "answerability": "supported"}
+{"id": "r004", "query": "21TVA1K5BO 用的什么处理器？", "expected_chunk_ids": ["psref_21tva1k5bo::processor"], "expected_answer": "Intel Core 5 210H。", "answerability": "supported"}
+{"id": "r005", "query": "21T9000SGR 的硬盘容量和规格是什么？", "expected_chunk_ids": ["psref_21t9000sgr::storage"], "expected_answer": "512GB M.2 2242 PCIe 4.0 x4 NVMe SSD，Opal 2.0。", "answerability": "supported"}
+{"id": "r006", "query": "21MR00G6QN 可以当成已确认的当前在售推荐吗？", "expected_chunk_ids": ["psref_21mr00g6qn::processor"], "expected_answer": "不能，厂商标为Withdrawn，样本用于历史规格检索。", "answerability": "supported"}
+{"id": "r007", "query": "这三款现在都能在6000元以内买吗？", "expected_chunk_ids": [], "expected_answer": "未收集当前价格，无法确认。", "answerability": "not_supported"}
+{"id": "r008", "query": "21TVA1K5BO 上课一天一定不用充电吗？", "expected_chunk_ids": [], "expected_answer": "没有续航测试及条件，不能保证。", "answerability": "not_supported"}

@@ -1,0 +1,4 @@
+product_id,brand,model,model_year,configuration,cpu,ram_gb,storage_gb,weight_kg,price_cny_snapshot,price_observed_at,source_url,collected_at,mtm,market_status
+lenovo_21tva1k5bo,Lenovo,ThinkBook 14 G8 IRL,,21TVA1K5BO; Core 5 210H; 1x16GB DDR5-5600; 512GB SSD,Intel Core 5 210H,16,512,,,,https://psref.lenovo.com/Detail/ThinkBook_14_G8_IRL?M=21TVA1K5BO,2026-10-23T10:29:30+00:00,21TVA1K5BO,not_verified
+lenovo_21t9000sgr,Lenovo,ThinkPad E14 Gen 7 (Intel),,21T9000SGR; Core 5 220U; 1x16GB DDR5-5200; 512GB SSD,Intel Core 5 220U,16,512,,,,https://psref.lenovo.com/Detail/ThinkPad_E14_Gen_7_Intel?M=21T9000SGR,2026-10-23T10:29:30+00:00,21T9000SGR,not_verified
+lenovo_21mr00g6qn,Lenovo,ThinkBook 14 G7 IML,,21MR00G6QN; Core Ultra 7 155H; 2x16GB DDR5-5600; 512GB SSD,Intel Core Ultra 7 155H,32,512,,,,https://psref.lenovo.com/Detail/ThinkBook_14_G7_IML?M=21MR00G6QN,2026-10-23T10:29:30+00:00,21MR00G6QN,withdrawn

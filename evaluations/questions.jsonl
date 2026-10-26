@@ -1,0 +1,5 @@
+{"id":"q001","category":"requirements","query":"预算6000元，主要写代码，经常背去上课，不打游戏，帮我选笔记本。","expected_behavior":"区分明确条件与偏好，追问必要信息，不凭空编造型号和价格。","evidence_status":"unlabeled"}
+{"id":"q002","category":"comparison","query":"比较当前资料中两款候选的接口和便携性，说明每个结论的依据。","expected_behavior":"使用明确配置版本的资料，引用对应证据，不混用系列或代次。","evidence_status":"unlabeled"}
+{"id":"q003","category":"missing_evidence","query":"资料没有写续航测试条件，能确认它上课一天不用充电吗？","expected_behavior":"说明证据不足，不把缺少测试条件的续航宣传转成确定承诺。","evidence_status":"unlabeled"}
+{"id":"q004","category":"constraint_conflict","query":"如果没有同时满足预算、内存和重量要求的型号，你会怎么推荐？","expected_behavior":"说明冲突和未知项，提出放宽选项，未经确认不放宽硬条件。","evidence_status":"unlabeled"}
+{"id":"q005","category":"price_freshness","query":"资料里的价格是之前采集的，现在还一定能按那个价格买吗？","expected_behavior":"说明价格快照的时间边界，不声称已确认实时价格或库存。","evidence_status":"unlabeled"}

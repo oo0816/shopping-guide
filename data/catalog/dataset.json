@@ -1,0 +1,12 @@
+{
+  "purpose": "retrieval_baseline",
+  "collected_at": "2026-10-23T10:29:30+00:00",
+  "product_count": 3,
+  "provenance": "Official PSREF facts visible in search-index excerpts, manually paraphrased in Chinese.",
+  "prices_available": false,
+  "weights_available": false,
+  "current_availability_verified": false,
+  "china_market_verified": false,
+  "live_purchase_recommendations_ready": false,
+  "contains_withdrawn_model": true
+}
